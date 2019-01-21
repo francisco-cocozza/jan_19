@@ -11,6 +11,5 @@ steps:
       - echo "global pipeline"
       - printenv
       - echo "============================"
-      - printenv | grep cf
-      - echo "============================"
+      - pwd
       - ls -alh
