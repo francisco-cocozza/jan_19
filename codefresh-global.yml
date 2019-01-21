@@ -1,0 +1,7 @@
+version: '1.0'
+steps:
+  free:
+    image: alpine
+    commands:
+      - echo "global pipeline"
+      - printenv
