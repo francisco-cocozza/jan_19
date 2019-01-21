@@ -7,3 +7,5 @@ steps:
       - printenv
       - echo "============================"
       - printenv | grep cf
+      - echo "============================"
+      - ls -alh
