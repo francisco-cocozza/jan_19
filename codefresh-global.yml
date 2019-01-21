@@ -5,3 +5,5 @@ steps:
     commands:
       - echo "global pipeline"
       - printenv
+      - echo "============================"
+      - printenv | grep cf
