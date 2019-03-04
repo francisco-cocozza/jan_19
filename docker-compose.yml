@@ -1,0 +1,8 @@
+version: '2'
+services:
+  serv1:
+    image: bash
+    command: echo 'This is serv1'
+  serv2:
+    image: r.cfcr.io/francisco-codefresh/test-image-dummy3:master
+    command: echo 'This is a serv2'
